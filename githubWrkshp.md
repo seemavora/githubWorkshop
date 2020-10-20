@@ -3,8 +3,9 @@
 ## Things we will go over:
 -  Making a Repo
 - Cloning a Repo
--  Basic Git Commands
-- For DEV Team Members Only (Dev- Specific Commands)
+- Branches
+-  ADD, COMMIT, PUSH, PULL
+- Squashing Commits
 
 ## Making a Repo
 **STEP 1** 
@@ -76,6 +77,27 @@ Replace the link with the link you copied in Step 1. (For this workshop simply c
 
 - ``` git pull origin <branch>``` Pulls the changes you just made. 
 - ``` git reset --hard origin/<branch>``` Resets branch to what was last committed to Github.  
+
+### **Squashing Commits**
+
+STEP 1:  ``` git rebase -i master``` Starts the squashing process.
+
+STEP 2: You should have entered vim. Press 'i' in order to insert or type into VIM except the first . You should see something like this: 
+![](/images/beforeSquash.png)
+
+STEP 3: Change all the commits below the first one to look like this: 
+![](/images/afterSquash.png)
+
+STEP 4: After your done exit out of VIM.
+
+STEP 5: You should enter a history of all the past commit messages. (Make sure your commit messages are informational, not like the ones shown in the image!) In VIM press 'dd' in order to delete all the past commits and leave it to have one useful commit message, once you are down exit VIM again. 
+![](/images/bigCommitMessage.png)
+*Sometimes you will be asked to do these steps multiple times, that is normal*
+
+Step 6: ```git push origin <branch> --force```
+
+STEP 7: Check Github and make sure your branch only shows one commit, if not repeat the steps.
+
 
 
 
