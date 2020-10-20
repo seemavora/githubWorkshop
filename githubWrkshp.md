@@ -90,8 +90,10 @@ STEP 3: Change all the commits below the first one to look like this:
 
 STEP 4: After your done exit out of VIM.
 
-STEP 5: You should enter a history of all the past commit messages. (Make sure your commit messages are informational, not like the ones shown in the image!) In VIM press 'dd' in order to delete all the past commits and leave it to have one useful commit message, once you are down exit VIM again. 
+STEP 5: You should enter a history of all the past commit messages. (Make sure your commit messages are informational, not like the ones shown in the image!) In VIM press 'dd' in order to delete all the past commits and leave it to have one useful commit message, once you are done exit VIM again. 
+
 ![](/images/bigCommitMessage.png)
+
 *Sometimes you will be asked to do these steps multiple times, that is normal*
 
 Step 6: ```git push origin <branch> --force```
