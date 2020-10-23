@@ -85,8 +85,7 @@ STEP 1:  ``` git rebase -i master``` Starts the squashing process.
 STEP 2: You should have entered vim. Press 'i' in order to insert or type into VIM except the first . You should see something like this: 
 ![](/images/beforeSquash.png)
 
-STEP 3: Change all the commits below the first one to look like this: 
-![](/images/afterSquash.png)
+STEP 3: Change all the commits below the first one to say either 's' or squash, instead of pick. Leave the first one to say pick! 
 
 STEP 4: After your done exit out of VIM.
 
