@@ -6,6 +6,7 @@
    - Clone a repo
    - Branches
    - ADD, COMMIT, PUSH, PULL
+   - Merge
    - Rebase
  
  ## Clone a repo
@@ -68,3 +69,16 @@
 
 - ``` git pull origin <branch>``` Pulls the changes you just made. 
 - ``` git reset --hard origin/<branch>``` Resets branch to what was last committed to Github.  
+
+### Merge
+- Once you push code, you should be able to merge into the default branch if you are the owner
+
+### Git rebase
+- We use git rebase when master repo has new changes that your branch doesn't have => hard to merge once you push your branch
+- Git rebase to get new updates from master repo while still working on your branch
+- git checkout master
+- git pull origin master
+- git checkout *rebase_branch*
+- git rebase master
+- git push origin *rebase_branch*
+- We need to checkout and pull master in order to have the lastest changes of these repo and rebase master will use local master repo.
