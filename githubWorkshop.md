@@ -12,7 +12,7 @@
  
 ![](/images/cloneRepo.png)
    - Copy the git repo address
-   - Use the command: git clone <git repo>
+   - Use the command: git clone *git repo*
  ## Branches
   
 ## Basic Git Commands
