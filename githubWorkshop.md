@@ -13,6 +13,10 @@
 ![](/images/cloneRepo.png)
    - Copy the git repo address
    - Use the command: git clone *git_repo*
+ ## Local repo vs remote repo
+   -  Local repo: git repo on your computer
+   -  Remote repo: repo hosted on cloud server
+   -  Goal of learning git: make sure that your local repo and remote repo in sync with each other
  ## Branches
   
 ## Basic Git Commands
