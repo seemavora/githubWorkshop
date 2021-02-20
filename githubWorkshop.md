@@ -1,5 +1,5 @@
 ## Git vs GitHub:
-   - Git: version contorl system that keep track of your source code
+   - Git: version control system that keeps track of your source code
    - GitHub: hosting service that manages Git repositories
 ## Things we will go over:
    - Fork a repo
