@@ -11,8 +11,8 @@
  ## Clone a repo
  
 ![](/images/cloneRepo.png)
-    - Copy the git repo address
-    - Use the command: git clone <git repo>
+   - Copy the git repo address
+   - Use the command: git clone <git repo>
  ## Branches
   
 ## Basic Git Commands
