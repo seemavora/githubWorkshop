@@ -75,9 +75,6 @@
 
 ### Git rebase
 - We use git rebase when master repo has new changes that your branch doesn't have => hard to merge once you push your branch
-- master       : ***** ***  ***
-- repo         : *********      ~ ***
-- rebase repo  : ***** ***  *** ~ ***
 - Git rebase to get new updates from master repo while still working on your branch
 - git checkout master
 - git pull origin master
