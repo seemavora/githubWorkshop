@@ -80,5 +80,5 @@
 - git pull origin master
 - git checkout *rebase_branch*
 - git rebase master
-- git push origin *rebase_branch*
+- git push origin *rebase_branch* --force
 - We need to checkout and pull master in order to have the lastest changes of these repo and rebase master will use local master repo.
