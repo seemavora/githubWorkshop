@@ -38,7 +38,7 @@
 
 
 ### **ADD, COMMIT, PUSH, PULL**
-**Step 1** Adding Your Changes
+**Step 1** Adding Your Changes haha
 
 - ```git add .``` : Stages all your files for commit
 
