@@ -13,20 +13,20 @@
  
 ![](/images/cloneRepo.png)
    - Copy the git repo address
-   - Use the command: git clone *git_repo*
+   - Use the command: git clone *git_repo*. This will make a copy of a repo to your local machine
  ## Local repo vs remote repo
-   -  Local repo: git repo on your computer
+   -  Local repo: git repo on your local machine
    -  Remote repo: repo hosted on cloud server
-   -  Goal of learning git: make sure that your local repo and remote repo in sync with each other
- ## Branches
-  
+   -  One of the goal of learning git: make sure that your local repo and remote repo in sync with each other
+   -  Also to collaborate with others
 ## Basic Git Commands
 ### **The Best Git Command to Exist**
 - ```git status``` : When in doubt use this command, will give you hints on what you should do next.
 
 ### **Github Branches**
 
-- ```git branch``` : Checks what branch you are on and the history of branches you have checked out in the past. The main branch is by default named master. 
+- ```git branch``` : Checks what branch you are on and the history of branches you have checked out in the past. The main branch is by default named master.
+- But github default is now main 
 
 *For Dev Team Members: The roote branch for Core-V4 is dev, NEVER EVER WORK ON THIS BRANCH!!!*
 
