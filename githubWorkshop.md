@@ -1,6 +1,8 @@
 ## Git vs GitHub:
    - Git: version control system that keeps track of your source code
    - GitHub: hosting service that manages Git repositories
+   - There are many hosting services such as GitHub, Bitbucket, internal services at many companies
+   - But they all support Git
 ## Things we will go over:
    - Fork a repo
    - Clone a repo
@@ -26,13 +28,13 @@
 ### **Github Branches**
 
 - ```git branch``` : Checks what branch you are on and the history of branches you have checked out in the past. The main branch is by default named master.
-- But github default is now main 
 
 *For Dev Team Members: The roote branch for Core-V4 is dev, NEVER EVER WORK ON THIS BRANCH!!!*
 
+
 - ``` git checkout -b <branch> ``` Creates new branch.
 
-- ``` git checkout <branch> ``` Allows you to work on this branch
+- ``` git checkout <branch> ``` Switch to that branch, it exists, allows you to work on this branch
 
 - ``` git fetch origin <branch>``` Updates branch of all recent commits. 
 
@@ -40,10 +42,8 @@
 ### **ADD, COMMIT, PUSH, PULL**
 **Step 1** Adding Your Changes
 
+- ``` git add [file] ```: Add files to commit
 - ```git add .``` : Stages all your files for commit
-
-- ``` git add <file>``` Stages a particular file for commit
-
 
 ![](/images/gitAdd.png)
 
@@ -61,14 +61,19 @@
 - ```git push origin <branch>'``` : Pushes the changes you made on your branch. 
 
 - ``` git push --force origin <branch>``` Force pushes the changes.
-- ``` git pull origin <branch>``` Pulls the changes you just made. 
+- ``` git push origin <branch>``` Pulls the changes you just made. 
+- ``` git push origin ``` Push everything to the online repo
 
-*Once your branch has been merged into the repository, make sure to start a new project with  NEW BRANCH!*
+*Once your branch has been merged into the main repository, make sure to start a new project with  NEW BRANCH!*
 
+** Update your local repo
+- ``` git pull ``` Will pull everything from online repo to your local one
+Should do this if you need to rebase or switch to another branch by your friends
 ### **Resetting Branch to Github Branch**
 
 - ``` git pull origin <branch>``` Pulls the changes you just made. 
 - ``` git reset --hard origin/<branch>``` Resets branch to what was last committed to Github.  
+### 
 
 ### Merge
 - Once you push code, you should be able to merge into the default branch if you are the owner
