@@ -1,5 +1,6 @@
 ## Git vs GitHub:
    - Git: version control system that keeps track of your source code
+   - Can be executed through CLI
    - GitHub: hosting service that manages Git repositories
    - There are many hosting services such as GitHub, Bitbucket, internal services at many companies
    - But they all support Git
@@ -10,6 +11,7 @@
    - ADD, COMMIT, PUSH, PULL
    - Merge
    - Rebase
+   - Some tips
  
  ## Clone a repo
  
@@ -87,3 +89,8 @@ Should do this if you need to rebase or switch to another branch by your friends
 - git rebase master
 - git push origin *rebase_branch* --force
 - We need to checkout and pull master in order to have the lastest changes of these repo and rebase master will use local master repo.
+
+### Some tips
+- Commit whenever you feels like you've done something substantial
+- Whenever there's bugs that you cannot find out, git stash to revert to the nearest commit
+- Or you vscode to revert those changes
