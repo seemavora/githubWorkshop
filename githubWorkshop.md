@@ -1,6 +1,6 @@
 ## Git vs GitHub:
    - Git: version control system that keeps track of your source code
-   - Can be executed through CLI
+   - Can be executed through CLI, Command Line Interface
    - GitHub: hosting service that manages Git repositories
    - There are many hosting services such as GitHub, Bitbucket, internal services at many companies
    - But they all support Git
@@ -19,10 +19,11 @@
    - Copy the git repo address
    - Use the command: git clone *git_repo*. This will make a copy of a repo to your local machine
  ## Local repo vs remote repo
-   -  Local repo: git repo on your local machine
-   -  Remote repo: repo hosted on cloud server
-   -  One of the goal of learning git: make sure that your local repo and remote repo in sync with each other
-   -  Also to collaborate with others
+   - Local repo: git repo on your local machine
+   - Remote repo: repo hosted on cloud server
+   - One of the goal of learning git: make sure that your local repo and remote repo in sync with each other
+   - Also to collaborate with others
+   - Most of CLI you run will affect local repo
 ## Basic Git Commands
 ### **The Best Git Command to Exist**
 - ```git status``` : When in doubt use this command, will give you hints on what you should do next.
@@ -31,15 +32,12 @@
 
 - ```git branch``` : Checks what branch you are on and the history of branches you have checked out in the past. The main branch is by default named master.
 
-*For Dev Team Members: The roote branch for Core-V4 is dev, NEVER EVER WORK ON THIS BRANCH!!!*
+*For Dev Team Members: The root branch for Core-V4 is dev, NEVER EVER WORK ON THIS BRANCH!!!*
 
 
 - ``` git checkout -b <branch> ``` Creates new branch.
 
 - ``` git checkout <branch> ``` Switch to that branch, it exists, allows you to work on this branch
-
-- ``` git fetch origin <branch>``` Updates branch of all recent commits. 
-
 
 ### **ADD, COMMIT, PUSH, PULL**
 **Step 1** Adding Your Changes
