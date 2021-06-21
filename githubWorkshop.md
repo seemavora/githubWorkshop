@@ -31,7 +31,7 @@
 
 - ```git branch``` : Checks what branch you are on and the history of branches you have checked out in the past. The main branch is by default named master.
 
-*For Dev Team Members: The roote branch for Core-V4 is dev, NEVER EVER WORK ON THIS BRANCH!!!*
+*For Dev Team Members: The root branch for Core-V4 is dev, NEVER EVER WORK ON THIS BRANCH!!!*
 
 
 - ``` git checkout -b <branch> ``` Creates new branch.
